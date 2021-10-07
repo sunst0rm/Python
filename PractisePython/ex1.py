@@ -7,6 +7,9 @@ print("Ok thanks sir, so your name is " + name)
 
 #Asks to enter their age
 age = int(input("What is your age? "))
+print("Ok sir so your age is: ", age)
 
-print("Your age is: ", age)
+year = str((2021 + age)+100)
 
+#Tells in which year they will be 100 years old
+print(name + " in 100 years you will be: ", year)
