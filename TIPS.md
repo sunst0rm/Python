@@ -8,3 +8,5 @@ typing `python3 script.py` to launch it, only `./script.py` is fine.
 `int()` --> can be used to change e.g input to integer
 
 `str()` --> changes something to string
+
+`import datetime` --> imports datetime library
