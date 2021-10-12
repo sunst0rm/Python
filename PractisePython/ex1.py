@@ -12,7 +12,7 @@ age = int(input("What is your age? "))              #Asks to enter their age
 
 year = (now.year + 100) - age                       #Defines year argument
 
-msg = name + " in 100 years you will be: ", year    #Tells in which year they will be 100 years old
+msg = name + " You will have 100 years in: ", year    #Tells in which year they will be 100 years old
 
 print(msg)                                          #Prints it
 
