@@ -5,12 +5,12 @@
 
 number = int(input("Enter a number: "))
 
-new_list = range(1, number+1)
+range_list = range(1, number+1)
 
-xList = []
+divisor_list = []
 
-for x in new_list:
+for x in range_list:
     if number % x == 0:
-        xList.append(x)
+        divisor_list.append(x)
 
-print(xList)
+print(divisor_list)
